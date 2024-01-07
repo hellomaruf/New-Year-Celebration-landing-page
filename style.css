@@ -61,3 +61,120 @@ body {
   font-size: 48px;
   font-weight: 700;
 }
+/* midnight party section */
+.midnight-container {
+  width: 100%;
+  margin: 120px 0;
+}
+.midnight-container .midnight-content {
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(./assets/Vectorrr.png);
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  padding: 0 126px;
+}
+.text-content {
+  color: white;
+}
+.text-content h1 {
+  font-size: 64px;
+  font-weight: 900px;
+}
+.text-content p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 26px 0;
+}
+.primary-btn {
+  font-size: 20px;
+  background-color: #f00;
+  color: white;
+  border: none;
+  padding: 14px 22px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+/* Destination section */
+.destination-section {
+  width: 100%;
+  margin-bottom: 120px;
+}
+.destination-container {
+  width: 1320px;
+  height: 482px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.destination-container .destination-content {
+  text-align: center;
+}
+.destination-container .destination-content h2 {
+  padding: 10px 0;
+  font-size: 32px;
+}
+.destination-container .destination-content h2 span {
+  color: #f00;
+}
+.destination-btn {
+  margin: 48px 0;
+}
+
+/* offers section */
+.offer-section {
+  width: 100%;
+}
+.offer-section .offers-container {
+  width: 1320px;
+  margin: 120px auto;
+}
+.offer-section .offers-container .offers-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.offers-img img {
+  width: 365px;
+  margin: 0 130px;
+  border: 13px solid #f00;
+  padding: 30px;
+  background-clip: content-box;
+  border-radius: 50%;
+}
+.offers-left-content h2 {
+  font-size: 24px;
+  color: #f00;
+  padding: 5px 0;
+  font-weight: 500;
+}
+.offers-left-content h1 {
+  font-size: 48px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-bottom: 22px;
+  font-weight: 700;
+}
+.offers-left-content p {
+  font-size: 20px;
+  color: rgba(7, 2, 17, 0.6);
+}
+.offers-right-content h1 {
+  font-size: 48px;
+  color: #f00;
+}
+.offers-right-content p {
+  color: rgba(7, 2, 17, 0.6);
+  padding: 16px 0;
+  font-size: 20px;
+}
